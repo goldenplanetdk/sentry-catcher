@@ -1,0 +1,19 @@
+{
+    "name": "goldenplanetdk/sentry-catcher",
+    "description": "Filter Sentry exceptions",
+    "type": "library",
+    "require": {
+        "sentry/sdk": "^2.1",
+        "doctrine/dbal": "^2.10"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evgeniy Stepanov",
+            "email": "evgeniy@goldenplanet.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {"Gpp\\Sentry\\": "src/"}
+    }
+}
