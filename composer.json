@@ -3,7 +3,7 @@
     "description": "Filter Sentry exceptions",
     "type": "library",
     "require": {
-        "sentry/sdk": "^2.1",
+        "sentry/sdk": "^3.1",
         "doctrine/dbal": "^2.10"
     },
     "license": "MIT",
